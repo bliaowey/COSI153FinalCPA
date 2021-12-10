@@ -1,7 +1,10 @@
 import React, {useState} from 'react';
 import { Text, View, StyleSheet, TextInput, Button, Image, SafeAreaView, ScrollView } from 'react-native';
+import { Video, AVPlaybackStatus } from 'expo-av';
 
 export default function App(){
+  const video = React.useRef(null);
+  const [status, setStatus] = React.useState({});
   return(
     <SafeAreaView>
       <ScrollView>
@@ -12,13 +15,9 @@ export default function App(){
             </Text>
           </View>
           <View style={styles.horizontal}>
-            <Image
-              style={{width: 200, height: 100}}
-              source={{uri: 'https://www.worldatlas.com/r/w768/img/flag/mc-flag.jpg'}}
-            />
           </View>
           <View style={styles.container}>
-            <View style={{flex: 1, flexDirection: 'row', justifyContent: 'left', alignItems: 'left'}}>
+            <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
             <Text style={{fontSize: 20}}>
               Lyrics: {"\n"}
               {"\n"}
@@ -38,6 +37,7 @@ export default function App(){
               Adults and children have always respected them. {"\n"}
 
             </Text>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OxDpksrQ3WI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </View>
           </View>
         </View>
