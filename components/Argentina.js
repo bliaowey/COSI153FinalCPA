@@ -12,14 +12,10 @@ export default function App(){
             </Text>
           </View>
           <View style={styles.horizontal}>
-            <Image
-              style={{width: 200, height: 100}}
-              source={{uri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAABKCAMAAAC2AzvLAAAAllBMVEV0rN////9vqt6lx+nl1Mvfx7T69/fl0cPr3tj9/P37uQ3ixav3tQ7s3tX59vTIn4TTsp/17efOm2rQpHzjzbvfupbRr5nAhEDhwaWzcDK8f0Xbu6LNqZLGfwDuqgbLk1jIlWm1bhy3cynOoHHinQzWsZP159narHvbsozYrYLOqIqzbiqoXhDGjFfx6urSjhG1bQPBehAxAjR4AAABgElEQVRoge2X3XKCMBBGSSuEEEFDiAZFokKM2PLj+79cQy96b5wJ05k9N9zlTHY2+y1BAAAAAAAAAAD/kI9lCD6XIUDL4O7N0IAi794VqtCGbO3XpzfOcCoYZyLFQ+zPG5M84jdpbpKTHDmJnbxhwYzAIr+vBC2K0JM32kWUdlh1e94cO0qjR+bFi1gjJFeHr+/yoI4SK4cjXLyVZrLj11Od1KeyVzLWFfHgZWSg5nwZk/V6nYxXbShhzIM31p2SzZS0bd22yaSaRtHXW9rBm6aYl2MyPtvnmJz6EKepL2/Y2zLXbT0XmvvyUlvafrLe0XqnRqpO+/AyRqjRV3vh0V73cjZ0ID76ilQ6lqovf9/RhXPJdPXyIS5ehBSWR3Uo57nBpTAM+Xi/KHvMc/LY8H2n8Dwndw4x7JgLBRWre26zwTBvuWBbGuWE05uRjEc58ZeDKB7+cj/zmPto3nO2ZGN3Hb97zkyEGHII3re977HY3r7UfwoAAAAAAAAA/EN+ALikLD6YvpSbAAAAAElFTkSuQmCC'}}
-            />
           </View>
           <View style={styles.container}>
 
-          <View style={{flex: 1, flexDirection: 'row', justifyContent: 'left', alignItems: 'left'}}>
+          <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
             <Text style={{fontSize: 20}}>
               Lyrics: {"\n"}
               {"\n"}
@@ -62,6 +58,7 @@ export default function App(){
             Or let us swear to die with glory!{"\n"}
             Or let us swear to die with glory!{"\n"}
             </Text>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TrRiFOb3RGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </View>
           </View>
         </View>
