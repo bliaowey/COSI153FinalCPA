@@ -12,14 +12,10 @@ export default function App(){
             </Text>
           </View>
           <View style={styles.horizontal}>
-            <Image
-              style={{width: 200, height: 100}}
-              source={{uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/2880px-Flag_of_Bosnia_and_Herzegovina.svg.png'}}
-            />
           </View>
           <View style={styles.container}>
 
-          <View style={{flex: 1, flexDirection: 'row', justifyContent: 'left', alignItems: 'left'}}>
+          <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
             <Text style={{fontSize: 20}}>
               Lyrics (Unofficial): {"\n"}
               {"\n"}
@@ -66,6 +62,7 @@ export default function App(){
               We go into the future{"\n"}
               Together!
             </Text>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fl3h9UsTJFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </View>
           </View>
         </View>
