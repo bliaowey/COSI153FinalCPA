@@ -11,8 +11,6 @@ export default function App(){
             Russian National Anthem: "Gosudarstvennyy Gimn Rossiyskoy Federatsii"
             </Text>
           </View>
-          <View style={styles.horizontal}>
-          </View>
           <View style={styles.container}>
             <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'cet'}}>
             <Text style={{fontSize: 20}}>
