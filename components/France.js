@@ -11,9 +11,6 @@ export default function App(){
             French National Anthem: "La Marseillaise"
             </Text>
           </View>
-          <View style={styles.horizontal}>
-
-          </View>
           <View style={styles.container}>
             <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
             <Text style={{fontSize: 20}}>
