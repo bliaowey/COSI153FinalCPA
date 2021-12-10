@@ -8,17 +8,13 @@ export default function App(){
         <View style={styles.container}>
           <View>
             <Text style={styles.header}>
-            Serbiam National Anthem: "Boze Pravde"
+            Serbiam National Anthem: "Bože pravde"
             </Text>
           </View>
           <View style={styles.horizontal}>
-            <Image
-              style={{width: 200, height: 100}}
-              source={{uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/2560px-Flag_of_Serbia.svg.png'}}
-            />
           </View>
           <View style={styles.container}>
-            <View style={{flex: 1, flexDirection: 'row', justifyContent: 'left', alignItems: 'left'}}>
+            <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
             <Text style={{fontSize: 20}}>
               Lyrics: {"\n"}
               {"\n"}
@@ -45,6 +41,7 @@ export default function App(){
               God, our hope; protect and cherish,{"\n"}
               Serbian lands and Serbian race!{"\n"}
             </Text>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Iu_Wz_buPOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </View>
           </View>
         </View>
