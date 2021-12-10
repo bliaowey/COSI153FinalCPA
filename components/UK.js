@@ -11,8 +11,6 @@ export default function App(){
             United Kingdom National Anthem: "God Save the Queen"
             </Text>
           </View>
-          <View style={styles.horizontal}>
-          </View>
           <View style={styles.container}>
             <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
             <Text style={{fontSize: 20, padding: 10}}>
