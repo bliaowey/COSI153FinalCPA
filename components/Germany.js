@@ -11,9 +11,6 @@ export default function App(){
             German National Anthem: "Deutschlandlied"
             </Text>
           </View>
-          <View style={styles.horizontal}>
-
-          </View>
           <View style={styles.container}>
             <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
             <Text style={{fontSize: 20}}>
