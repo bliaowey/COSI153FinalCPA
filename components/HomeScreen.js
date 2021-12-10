@@ -13,46 +13,91 @@ import Monaco from './Monaco';
 import Romania from './Romania';
 import Serbia from './Serbia';
 import Argentina from './Argentina';
+import Italy from './Italy';
+import France from './France'
+import Australia from './Australia'
+import UK from './UK';
+import Croatia from './Croatia';
+import Germany from './Germany';
+import Russia from './Russia';
+import Austria from './Austria';
+import Mongolia from './Mongolia';
 
 function HomeNav({ navigation }) {
   return (
     <ScrollView>
     <View style={{ flex: 1, justifyContent: 'space-around', alignItems: 'stretch', boarderColor: 'white' }}>
       <Button
-        title="United States"
-        onPress={() => navigation.navigate('United States')}
+        title="Argentina"
+        onPress={() => navigation.navigate('Argentina')}
       />
       <Button
-        title="Slovenia"
-        onPress={() => navigation.navigate('Slovenia')}
+        title="Australia"
+        onPress={() => navigation.navigate('Australia')}
       />
       <Button
-        title="Canada"
-        onPress={() => navigation.navigate('Canada')}
-      />
-      <Button
-        title="New Zealand"
-        onPress={() => navigation.navigate('New Zealand')}
+        title="Austria"
+        onPress={() => navigation.navigate('Austria')}
       />
       <Button
         title="Bosnia and Herzegovina"
         onPress={() => navigation.navigate('Bosnia')}
       />
       <Button
+        title="Canada"
+        onPress={() => navigation.navigate('Canada')}
+      />
+      <Button
+        title="Croatia"
+        onPress={() => navigation.navigate('Croatia')}
+      />
+      <Button
+        title="France"
+        onPress={() => navigation.navigate('France')}
+      />
+      <Button
+        title="Germany"
+        onPress={() => navigation.navigate('Germany')}
+      />
+      <Button
+        title="Italy"
+        onPress={() => navigation.navigate('Italy')}
+      />
+      <Button
         title="Monaco"
         onPress={() => navigation.navigate('Monaco')}
+      />
+      <Button
+        title="Mongolia"
+        onPress={() => navigation.navigate('Mongolia')}
+      />
+      <Button
+        title="New Zealand"
+        onPress={() => navigation.navigate('New Zealand')}
       />
       <Button
         title="Romania"
         onPress={() => navigation.navigate('Romania')}
       />
       <Button
+        title="Russia"
+        onPress={() => navigation.navigate('Russia')}
+      />
+      <Button
         title="Serbia"
         onPress={() => navigation.navigate('Serbia')}
       />
       <Button
-        title="Argentina"
-        onPress={() => navigation.navigate('Argentina')}
+        title="Slovenia"
+        onPress={() => navigation.navigate('Slovenia')}
+      />
+      <Button
+        title="United Kingdom"
+        onPress={() => navigation.navigate('United Kingdom')}
+      />
+      <Button
+        title="United States"
+        onPress={() => navigation.navigate('United States')}
       />
       <Button
           color='red' title='Go to Likes Page'
@@ -124,6 +169,60 @@ function ArgentinaScreen({navigation}){
   );
 }
 
+function ItalyScreen({navigation}){
+  return(
+    <Italy/>
+  );
+}
+
+function FranceScreen({navigation}){
+  return(
+    <France/>
+  );
+}
+
+function AustraliaScreen({navigation}){
+  return(
+    <Australia/>
+  );
+}
+
+function UKScreen({navigation}){
+  return(
+    <UK/>
+  );
+}
+
+function CroatiaScreen({navigation}){
+  return(
+    <Croatia/>
+  );
+}
+
+function GermanyScreen({navigation}){
+  return(
+    <Germany/>
+  );
+}
+
+function RussiaScreen({navigation}){
+  return(
+    <Russia/>
+  );
+}
+
+function AustriaScreen({navigation}){
+  return(
+    <Austria/>
+  );
+}
+
+function MongoliaScreen({navigation}){
+  return(
+    <Mongolia/>
+  );
+}
+
 const Tab = createNativeStackNavigator();
 
 export default function App(){
@@ -145,13 +244,22 @@ export default function App(){
                   <Tab.Navigator>
                     <Tab.Screen name="Home" component={HomeNav} />
                     <Tab.Screen name="Argentina" component={ArgentinaScreen} />
+                    <Tab.Screen name="Australia" component={AustraliaScreen}/>
+                    <Tab.Screen name="Austria" component={AustriaScreen}/>
                     <Tab.Screen name="Bosnia" component={BosniaScreen} />
                     <Tab.Screen name="Canada" component={CanadaScreen} />
+                    <Tab.Screen name="Croatia" component={CroatiaScreen} />
+                    <Tab.Screen name="France" component={FranceScreen} />
+                    <Tab.Screen name="Germany" component={GermanyScreen} />
+                    <Tab.Screen name="Italy" component={ItalyScreen} />
                     <Tab.Screen name="Monaco" component={MonacoScreen} />
+                    <Tab.Screen name="Mongolia" component={MongoliaScreen} />
                     <Tab.Screen name="New Zealand" component={NewZealandScreen} />
                     <Tab.Screen name="Romania" component={RomaniaScreen} />
+                    <Tab.Screen name="Russia" component={RussiaScreen} />
                     <Tab.Screen name="Serbia" component={SerbiaScreen} />
                     <Tab.Screen name="Slovenia" component={SloveniaScreen} />
+                    <Tab.Screen name="United Kingdom" component={UKScreen} />
                     <Tab.Screen name="United States" component={USAScreen} />
                     <Tab.Screen name="Likes Page" component={LikeScreen} />
                   </Tab.Navigator>
