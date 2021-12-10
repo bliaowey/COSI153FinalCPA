@@ -14,8 +14,6 @@ export default function App(){
             Mongolian National Anthem: "Mongol Ulsiin töriin duulal"
             </Text>
           </View>
-          <View style={styles.horizontal}>
-          </View>
           <View style={styles.container}>
             <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
             <Text style={{fontSize: 20}}>
