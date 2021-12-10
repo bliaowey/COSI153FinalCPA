@@ -12,10 +12,6 @@ export default function App(){
             </Text>
           </View>
           <View style={styles.horizontal}>
-            <Image
-              style={{width: 200, height: 100}}
-              source={{uri: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg'}}
-            />
           </View>
           <View style={styles.container}>
             <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
@@ -32,6 +28,7 @@ export default function App(){
                 God keep our land glorious and free! {"\n"}
                 O Canada we stand on guard for thee!
             </Text>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9RlKkvH4R9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </View>
           </View>
         </View>
