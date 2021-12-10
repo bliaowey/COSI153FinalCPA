@@ -12,14 +12,9 @@ export default function App(){
             </Text>
           </View>
           <View style={styles.horizontal}>
-            <Image
-              style={{width: 200, height: 100}}
-              source={{uri: 'https://youtu.be/cqvanJigxhU'}}
-            />
-            
           </View>
           <View style={styles.container}>
-            <View style={{flex: 1, flexDirection: 'row', justifyContent: 'left', alignItems: 'left'}}>
+            <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'cet'}}>
             <Text style={{fontSize: 20}}>
               Lyrics: {"\n"}
               {"\n"}
@@ -46,6 +41,7 @@ export default function App(){
               And that in our chests we still proudly bear a name{"\n"}
               Triumphant in battles, the name of Trajan!{"\n"}
             </Text>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cqvanJigxhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </View>
           </View>
         </View>
